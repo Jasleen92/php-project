@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.carousel-inner img {
+  width: 60%;
+  height: 550px; /* Adjust this height as needed */
+   /* Ensure the image covers the area */
+}
+
+.carousel-item {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background: linear-gradient(to right, #FFB6C1, #FFF0F5);
+}
+
+.navbar {
+  background-color: #a01040; /* Dark navy color */
+}
+
+.navbar-nav .nav-link {
+  color: #F0EDEE; /* Light color for navbar options */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #FF6F61; /* Soft coral color on hover */
+}
+
+.navbar-brand {
+  color: #FF6F61; /* Soft coral color for brand */
+}
+
+.carousel-background {
+  background: url('https://i.pinimg.com/564x/f7/ef/b4/f7efb4ee8ace89e02c4c0d8d7fea81d5.jpg') center center / cover no-repeat;
+  padding: 70px 0;
+}
+
+footer {
+  background-color: #a01040; /* Dark navy color */
+  color: #F0EDEE; /* Light color for footer text */
+  padding: 10px 0;
+}
+
+h2 {
+  color: #002F3C; /* Dark teal color for headers */
+}
+
+p {
+  color: #e40b0b; /* Dark red for paragraph text */
+}
+
+.btn-primary {
+  background-color: #FF6F61; /* Soft coral color for buttons */
+  border-color: #FF6F61; /* Border color to match button background */
+}
+
+.btn-primary:hover {
+  background-color: #E55B5B; /* Slightly darker coral on hover */
+  border-color: #E55B5B; /* Border color to match button hover background */
+}
+
+.btn-success {
+  background-color: #E55B5B; /* Bootstrap default green */
+  border-color: red;
+}
+
+.btn-success:hover {
+  background-color: #E55B5B; /* Darker green on hover */
+  border-color: RED;
+}
+/* CSS FOR ABOUT PAGE*/
+.about-us {
+    color: #fff;
+    padding: 60px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.about-us p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: #a01040;
+}
+
+.image-box {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
